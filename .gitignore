@@ -1,10 +1,11 @@
-# Dependencias
 node_modules/
+.DS_Store
+.env
 
-# Reports: ignorar todo el contenido, menos su .gitkeep
+# Keep folder structure, ignore generated reports
 reports/*
 !reports/.gitkeep
 
-# Environments: ignorar todos los JSON, menos los *.template.json
+# Only environment templates are versioned; real environments may contain credentials
 environments/*.json
 !environments/*.template.json

@@ -1,0 +1,10 @@
+# Dependencias
+node_modules/
+
+# Reports: ignorar todo el contenido, menos su .gitkeep
+reports/*
+!reports/.gitkeep
+
+# Environments: ignorar todos los JSON, menos los *.template.json
+environments/*.json
+!environments/*.template.json
